@@ -1,0 +1,19 @@
+{application, erly_riakc,
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, { erly_riakc_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    cuesport,
+    riakc,
+    lager
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, []},
+  {links, []}
+ ]}.
